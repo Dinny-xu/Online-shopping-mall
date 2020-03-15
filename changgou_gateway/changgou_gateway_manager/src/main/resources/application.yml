@@ -1,0 +1,43 @@
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      globalcors:
+        cors-configurations:
+                '[/**]': # 匹配所有请求
+                            allowedOrigins: "*" #跨域处理 允许所有的域
+                            allowedMethods: # 支持的方法
+                            - GET
+                            - POST
+                            - PUT
+                            - DELETE
+      routes:
+      - id: goods
+        uri: lb://goods
+        predicates:
+        - Path=/goods/**
+        filters:
+        - StripPrefix= 1
+        - name: RequestRateLimiter #请求数限流，名字不能随便写
+          args:
+            key-resolver: "#{@ipKeyResolver}" # 自定义的 根据账户还是IP 进行限流
+            redis-rate-limiter.replenishRate: 1   #每秒一个令牌，正常情况  账户IP  全部用户加在一起  某一个IP 进行限速
+            redis-rate-limiter.burstCapacity: 1   #突发 ，过节日等等   请求量忽然变大
+      - id: system
+        uri: lb://system
+        predicates:
+        - Path=/system/**
+        filters:
+        - StripPrefix= 1
+  redis:
+    host: 192.168.200.128
+    port: 6379
+server:
+  port: 9101
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:6868/eureka
+  instance:
+    prefer-ip-address: true
