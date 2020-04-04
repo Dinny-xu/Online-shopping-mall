@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c0b3be3-31c9-4aa3-a65f-5b3dcd6269ca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_xpand_starter_canal_0_0_1_SNAPSHOT.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou_service/changgou_service_canal/changgou_service_canal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou_service/changgou_service_canal/changgou_service_canal.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou_service/changgou_service_canal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou_service/changgou_service_canal/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +100,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15151516" />
     <property name="project.structure.side.proportion" value="0.30451128" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -122,20 +125,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SendMessageTest (5)">
-    <configuration name="SendMessageTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.springboot.rabbitmq.SendMessageTest" />
-      <module name="springboot-rabbitmq-producer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.springboot.rabbitmq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SendMessageTest">
     <configuration name="SendMessageTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.springboot.rabbitmq.SendMessageTest" />
       <module name="springboot-rabbitmq-producer" />
@@ -176,6 +166,19 @@
       </method>
     </configuration>
     <configuration name="SendMessageTest (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springboot.rabbitmq.SendMessageTest" />
+      <module name="springboot-rabbitmq-producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.rabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SendMessageTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.springboot.rabbitmq.SendMessageTest" />
       <module name="springboot-rabbitmq-producer" />
       <extension name="coverage">
@@ -279,11 +282,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SendMessageTest (1)" />
       <item itemvalue="Application.SendMessageTest (2)" />
       <item itemvalue="Application.SendMessageTest (3)" />
       <item itemvalue="Application.SendMessageTest (4)" />
       <item itemvalue="Application.SendMessageTest (5)" />
+      <item itemvalue="Application.SendMessageTest" />
       <item itemvalue="Spring Boot.changgou_web_item" />
       <item itemvalue="Spring Boot.changgou_service_search" />
       <item itemvalue="Spring Boot.changgou_web_search" />
@@ -297,11 +300,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SendMessageTest" />
         <item itemvalue="Application.SendMessageTest (5)" />
         <item itemvalue="Application.SendMessageTest (4)" />
         <item itemvalue="Application.SendMessageTest (3)" />
         <item itemvalue="Application.SendMessageTest (2)" />
-        <item itemvalue="Application.SendMessageTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -381,7 +384,11 @@
       <workItem from="1583725582604" duration="13849000" />
       <workItem from="1584164519987" duration="932000" />
       <workItem from="1584273069471" duration="953000" />
-      <workItem from="1584274068651" duration="1041000" />
+      <workItem from="1584274068651" duration="1921000" />
+      <workItem from="1584330870565" duration="2018000" />
+      <workItem from="1584343687250" duration="633000" />
+      <workItem from="1584425535843" duration="7479000" />
+      <workItem from="1585977458673" duration="1813000" />
     </task>
     <task id="LOCAL-00001" summary="畅购商城1.0">
       <created>1584273240218</created>
@@ -411,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584274860017</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="畅购商城2.0">
+      <created>1584275357206</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584275357206</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,35 +491,35 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="183" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1582614999737" />
-    <state x="390" y="114" key="CommitChangelistDialog2" timestamp="1584274852574">
+    <state x="390" y="114" key="CommitChangelistDialog2" timestamp="1584275356254">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="390" y="114" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1584274852574" />
-    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1584273904012">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="390" y="114" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1584275356254" />
+    <state x="123" y="124" width="2315" height="1163" key="DiffContextDialog" timestamp="1585979665008">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584273904012" />
-    <state x="813" y="288" key="FileChooserDialogImpl" timestamp="1584274383471">
+    <state x="123" y="124" width="2315" height="1163" key="DiffContextDialog/302.1440.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1585979665008" />
+    <state x="813" y="288" key="FileChooserDialogImpl" timestamp="1584433000442">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="769" y="274" key="FileChooserDialogImpl/0.0.1920.1046@0.0.1920.1046" timestamp="1575859350624" />
-    <state x="813" y="288" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1584274383471" />
-    <state width="1877" height="234" key="GridCell.Tab.0.bottom" timestamp="1583916091679">
+    <state x="813" y="288" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1584433000442" />
+    <state width="1877" height="234" key="GridCell.Tab.0.bottom" timestamp="1584453615683">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="234" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1583916091679" />
-    <state width="1877" height="234" key="GridCell.Tab.0.center" timestamp="1583916091679">
+    <state width="1877" height="234" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1584453615683" />
+    <state width="1877" height="234" key="GridCell.Tab.0.center" timestamp="1584453615682">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="234" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1583916091679" />
-    <state width="1877" height="234" key="GridCell.Tab.0.left" timestamp="1583916091678">
+    <state width="1877" height="234" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1584453615682" />
+    <state width="1877" height="234" key="GridCell.Tab.0.left" timestamp="1584453615682">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="234" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1583916091678" />
-    <state width="1877" height="234" key="GridCell.Tab.0.right" timestamp="1583916091679">
+    <state width="1877" height="234" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1584453615682" />
+    <state width="1877" height="234" key="GridCell.Tab.0.right" timestamp="1584453615682">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="234" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1583916091679" />
+    <state width="1877" height="234" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1584453615682" />
     <state width="1538" height="285" key="GridCell.Tab.1.bottom" timestamp="1582459119461">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -550,18 +564,20 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="611" y="221" key="NewModule_or_Project.wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1583308047427" />
-    <state x="573" y="98" key="SettingsEditor" timestamp="1584274324934">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="764" y="132" key="SettingsEditor" timestamp="1585977476478">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="573" y="98" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1584274324934" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1584275038277">
+    <state x="764" y="132" key="SettingsEditor/302.1440.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1585977476478" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1584275372862">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1584275038277" />
-    <state x="752" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584275348447">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1584275372862" />
+    <state x="1003" y="592" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585979638985">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="752" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1584275348447" />
+    <state x="1003" y="592" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/302.1440.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1585979638985" />
     <state x="567" y="230" width="786" height="590" key="find.popup" timestamp="1583743482858">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -570,14 +586,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="718" y="315" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584275047040" />
-    <state x="381" y="210" key="new project wizard" timestamp="1583308029299">
+    <state x="364" y="185" key="new project wizard" timestamp="1584275667025">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="381" y="210" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1583308029299" />
-    <state x="616" y="177" width="743" height="677" key="search.everywhere.popup" timestamp="1583422566534">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="364" y="185" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1584275667025" />
+    <state x="821" y="238" width="991" height="910" key="search.everywhere.popup" timestamp="1585977532351">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="616" y="176" width="743" height="675" key="search.everywhere.popup/0.0.1920.1046@0.0.1920.1046" timestamp="1575814995356" />
     <state x="616" y="177" width="743" height="677" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1583422566534" />
+    <state x="821" y="238" width="991" height="910" key="search.everywhere.popup/302.1440.1920.1050/0.0.2560.1410@0.0.2560.1410" timestamp="1585977532351" />
   </component>
 </project>
